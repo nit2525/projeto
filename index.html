@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<!--esse comando define o documento como HTML5-->
+
+<html lang="pt-br">
+  <!--esse comando define a linguagem do meu documento como portugues-->
+
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--o comando acima é um comando de fonte que eu coloquei, a fonte escolhida é "inter", então esse é um link dela-->
+
+    <meta charset="UTF-8" />
+
+    <!--define o conjunto de caracteres que vai ser usado na pagina-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--viewport é tudo que é visivel na minha pagina para o usuario, o restante da linha é sobre tamanho e zoom-->
+
+    <!--os metas acima são comandos essenciais do meu documento-->
+
+    <title>DevLinks</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+    <div id="container">
+      <!--criação da variante container-->
+      <div id="profile">
+        <!--criação da variante profile-->
+        <img
+          src="./assets/assets/Avatar.png"
+        />
+        <!--imagem que coloquei no meu site-->
+        <p>@Hensel_Nicolas</p>
+        <!--meu nome de usuario para que outros possam saber quem eu sou-->
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button>
+
+        </button>
+        <span>
+
+        </span>
+      </div>
+      <ul>
+
+        <li>
+          <a href="#"
+          target="_blank">
+          Inscrever-se no NLW </a>
+        </li>
+
+        <li>
+          <a href="#"
+          target="_blank">
+          Baixar meu e-book </a>
+        </li>
+
+        <li>
+          <a href="#"
+          target="_blank">
+          Veja meu portfólió </a>
+        </li>
+
+        <li>
+          <a href="https://app.rocketseat.com.br"
+          target="_blank">
+          Conheça a rocketseat </a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/nit2525" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/hensel_nicolas/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCgSRB0ce3x2JapuBpk_yZGA" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/nicolas-hensel-93ba53274/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com ♥ pela <a href="https://app.rocketseat.com.br" target="_blank"> rocketseat </a>
+      </footer>
+
+    </div>
+
+  <script 
+  type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+  </script>
+
+  <script 
+  nomodule
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+  </script>
+
+  <script src="./script.js"></script>
+  </body>
+</html>
